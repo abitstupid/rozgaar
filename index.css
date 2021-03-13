@@ -1,0 +1,70 @@
+.text-body-yellow {
+    color: #FFBC43 !important;
+    font-size: 1.3rem !important;
+    font-family: "Reem Kufi" , sans-serif;
+}
+
+.text-body-blue {
+    color: #0C375C !important;
+    font-size: 1.3rem !important;
+    font-family: "Reem Kufi" , sans-serif;
+}
+
+.text-body-white {
+    color: #ffffff !important;
+    font-size: 1.3rem !important;
+    font-family: "Reem Kufi" , sans-serif;
+}
+
+.text-body-small-yellow {
+    color: #FFBC43 !important;
+    font-size: 1rem !important;
+    font-family: "Reem Kufi" , sans-serif;
+}
+
+
+.text-heading-yellow {
+    color: #FFBC43 !important;
+    font-size: 2.5rem !important;
+    font-family: "Josefin Sans" , sans-serif;
+}
+
+.text-heading-blue {
+    color: #0C375C !important;
+    font-size: 2.5rem !important;
+    font-family: "Josefin Sans" , sans-serif;
+}
+
+.text-heading-white {
+    color: #ffffff !important;
+    font-size: 2.5rem !important;
+    font-family: "Josefin Sans" , sans-serif;
+}
+
+a.text-body-yellow:link, a.text-body-yellow:visited {
+    text-decoration: none;
+    color :#FFBC43;
+}
+
+a.text-body-yellow:hover {
+    color: #b3893b !important;
+}
+
+a.text-body-blue:link, a.text-body-blue:visited {
+    text-decoration: none;
+    color :#0C375C;
+}
+
+a.text-body-blue:hover {
+    color: #1861a1 !important;
+}
+
+a.text-body-white:link, a.text-body-white:visited {
+    text-decoration: none;
+    color :#ffffff;
+}
+
+a.text-body-white:hover {
+    color: #838383 !important;
+}
+
