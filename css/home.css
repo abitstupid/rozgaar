@@ -25,6 +25,10 @@
     background-position: center;
 }
 
+.heading-quote {
+    margin-top: 5rem;
+}
+
 .mobile-nav {
     background-color: #FFBC43 !important;
 }

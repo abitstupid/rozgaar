@@ -33,6 +33,14 @@
     background-repeat: no-repeat;
     transform: rotate(180deg);
 }
+
+.yellow-heading {
+    background-color: #f7eedf;
+}
+
+.gray-heading {
+    background-color: #d7e9f8;
+}
 /* media queries */
 
 /* @media only screen and (max-width: 1400px) {
@@ -61,6 +69,24 @@
     .text-heading-blue {
         font-size: 2rem !important;
     }
+
+    .carousel-left {
+        background-image: url("/images/carousel-button.svg");
+        background-size: 80%;
+        background-position-x: 0%;
+        background-position-y: center;
+        background-repeat: no-repeat;
+    }
+    
+    .carousel-right {
+        background-image: url("/images/carousel-button.svg");
+        background-size: 80%;
+        background-position-x: 0%;
+        background-position-y: center;
+        background-repeat: no-repeat;
+        transform: rotate(180deg);
+    }
+
 }
 
 @media only screen and (max-width: 575px) {
