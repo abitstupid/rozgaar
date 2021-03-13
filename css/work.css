@@ -19,7 +19,7 @@
 
 .carousel-left {
     background-image: url("/images/carousel-button.svg");
-    background-size: 90%;
+    background-size: 30%;
     background-position-x: 0%;
     background-position-y: center;
     background-repeat: no-repeat;
@@ -27,7 +27,7 @@
 
 .carousel-right {
     background-image: url("/images/carousel-button.svg");
-    background-size: 90%;
+    background-size: 30%;
     background-position-x: 0%;
     background-position-y: center;
     background-repeat: no-repeat;
