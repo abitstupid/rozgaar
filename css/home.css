@@ -100,7 +100,7 @@
     width: 85%;
     top: 52vh;
     left: 8vw;
-    background-color: #acacac4f;
+    background-color: #eeeeee27;
     backdrop-filter: blur(2px);
     border-radius: 2rem;
     -webkkit-box-shadow: outset 0px 0px 15px 5px #000;
@@ -166,7 +166,7 @@
     }
 
     .landing-page {
-        background: url("../images/landing-page-sm-bg.png");
+        background: url("../images/landing-page-sm.png");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -178,7 +178,7 @@
 @media only screen and (max-width: 575px) {
 
     .landing-page {
-        background: url("../images/landing-page-sm-bg.png");
+        background: url("../images/landing-page-sm.png");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
