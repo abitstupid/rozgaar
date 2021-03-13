@@ -41,6 +41,24 @@
     font-family: "Josefin Sans" , sans-serif;
 }
 
+.text-heading-yellow-small {
+    color: #FFBC43 !important;
+    font-size: 1.5rem !important;
+    font-family: "Josefin Sans" , sans-serif;
+}
+
+.text-heading-blue-small {
+    color: #0C375C !important;
+    font-size: 1.5rem !important;
+    font-family: "Josefin Sans" , sans-serif;
+}
+
+.text-heading-white-small {
+    color: #ffffff !important;
+    font-size: 1.5rem !important;
+    font-family: "Josefin Sans" , sans-serif;
+}
+
 a.text-body-yellow:link, a.text-body-yellow:visited {
     text-decoration: none;
     color :#FFBC43;

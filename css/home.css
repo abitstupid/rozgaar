@@ -17,6 +17,14 @@
     background-position-x: 5rem;
 }
 
+.logo-mobile {
+    height: 3rem;
+    background-image:url("../images/logo.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .mobile-nav {
     background-color: #FFBC43 !important;
 }
@@ -96,7 +104,7 @@
 
 /* glassy rectangular box in middle */
 
-.glass {
+/* .glass {
     width: 85%;
     top: 52vh;
     left: 8vw;
@@ -105,7 +113,7 @@
     border-radius: 2rem;
     -webkkit-box-shadow: outset 0px 0px 15px 5px #000;
     box-shadow: outset 0px 0px 15px 5px #000;
-}
+} */
 
 .social {
     width: 4rem;
@@ -148,8 +156,10 @@
 
 
 @media only screen and (max-width: 767px) {
+
     .logo {
     background-position-x: 0.5rem;
+    display: none;
     }
 
     .wrinkle-navbar {
@@ -185,6 +195,7 @@
     }
     .logo {
         background-position-x: 0rem;
+        display: none;
     }
 
 }
