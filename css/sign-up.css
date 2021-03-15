@@ -2,93 +2,72 @@ body {
     background: #fff url("/images/sign-up-bg.png");
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-}
-
-.mobile-nav {
-    background-color: #ffbc43 !important;
+    background-repeat: no-repeat    ;
 }
 
 .logo {
     height: 3.5rem !important;
     margin-top: 3rem !important;
-} 
+}
 
 .logo-image {
     height: 3.5rem;
 }
 
-.sign-in-container {
+.sign-up-container {
     height: fit-content;
 }
 
-.sign-in-content {
+.sign-up-content {
     border-radius: 1rem;
     background: rgba(255, 255, 255, 0.842) !important;
-    -webkit-box-shadow: 11px 19px 55px -9px rgba(0, 0, 0, 0.3);
-    -moz-box-shadow: 11px 19px 55px -9px rgba(0,0,0,0.3);
-    box-shadow: 11px 19px 55px -9px rgba(0, 0, 0, 0.3);
-    /* -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px); */
+    -webkit-box-shadow: 11px 19px 55px -9px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 11px 19px 55px -9px rgba(0,0,0,0.5);
+    box-shadow: 11px 19px 55px -9px rgba(0, 0, 0, 0.5);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
 }
 
-.password-form , .username-form {
+.email-form , .name-form , .username-form , .country-form {
     border-bottom: 0.1rem solid #FFBC43 !important;
     border-left: 0px;
     border-top: 0px;
     border-right: 0px;
-    border-radius: 10px !important;
+    border-radius: 15px;
 }
 
 .email:focus {
     outline: none !important;
 }
 
-.submit-btn-sign-in {
+.submit-btn-sign-up {
     background: #FFBC43;
 }
 
 /* media queries */
 
 /* @media only screen and (max-width: 1400px) {
-    .sign-in-container {
-        margin-top: 7rem !important;
-    }
-}
-
-@media only screen and (max-width: 1199px) {
-    .sign-in-container {
-        margin-top: 7rem !important;
-    }
+    
 } */
 
+@media only screen and (max-width: 1199px) {
+
+}
+
 @media only screen and (max-width: 991px) {
-    .sign-in-content {
+    .sign-up-content {
         width: 70% !important;
     }
 }
 
 @media only screen and (max-width: 767px) {
-    .sign-in-content {
+    .sign-up-content {
         width: 80% !important;
-    }
-
-    .logo {
-        display: none;
     }
 }
 
 @media only screen and (max-width: 575px) {
-
-    .logo {
-        background-position-x: 0rem;
-    }
-
-    .sign-in-container {
-        margin-top: 7rem !important;
-    }
-
-    .sign-in-content {
+    .sign-up-content {
         width: 95% !important;
     }
 
@@ -100,6 +79,3 @@ body {
         font-size: 0.8rem !important;
     }
 }
-
-
-
