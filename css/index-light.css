@@ -1,118 +1,118 @@
 /* container of logo wrinkle nav bar and find work/worker buttons */
 
 .landing-page {
-    width: 100%;
-    height: 100vh;
-    background-color: #ffffff;
-    /* background-image: url('../images/landing-page-bg.png');  */
-    background-size: cover;
-    background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  background-color: #ffffff;
+  /* background-image: url('../images/landing-page-bg.png');  */
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .logo {
-    height: 3rem;
-    background-image:url("../images/logo.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position-x: 5rem;
+  height: 3rem;
+  background-image: url("../images/logo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: 5rem;
 }
 
 .mobile-nav {
-    background-color: #FFBC43 !important;
+  background-color: #ffbc43 !important;
 }
 
 /* links in the center navbar */
 
 .nav-custom-link:hover {
-    background-color: #ffffff38;
-    border-radius: 5px;
-    backdrop-filter: blur(5px);
-    width: fit-content;
-    user-select: none;
-    cursor: pointer;
-    border-bottom: 0.15rem solid #FFBC43;
+  background-color: #ffffff38;
+  border-radius: 5px;
+  backdrop-filter: blur(5px);
+  width: fit-content;
+  user-select: none;
+  cursor: pointer;
+  border-bottom: 0.15rem solid #ffbc43;
 }
 .nav-custom-link {
-    z-index: 10000;
+  z-index: 10000;
 }
 
 /* home */
 
 .wrinkle-1 {
-    height: 35vh;
-    background: url("../images/landing-page/1.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
+  height: 35vh;
+  background: url("../images/landing-page/1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 /* about us */
 
 .wrinkle-2 {
-    height: 35vh;
-    background: url("../images/landing-page/2.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
+  height: 35vh;
+  background: url("../images/landing-page/2.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 /* yellow bulb */
 
 .wrinkle-3 {
-    height: 35vh;
-    background: url("../images/landing-page/y.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
+  height: 35vh;
+  background: url("../images/landing-page/y.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 /* rent a ride */
 
 .wrinkle-4 {
-    height: 35vh;
-    background: url("../images/landing-page/3.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
+  height: 35vh;
+  background: url("../images/landing-page/3.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 /* our story */
 
 .wrinkle-5 {
-    height: 35vh;
-    background: url("../images/landing-page/4.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
+  height: 35vh;
+  background: url("../images/landing-page/4.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 .button-work {
-    background-color: #FFBC43;
+  background-color: #ffbc43;
 }
 
 .button-worker {
-    border-color: #FFBC43;
+  border-color: #ffbc43;
 }
 
 /* glassy rectangular box in middle */
 
 .glass {
-    width: 85%;
-    top: 52vh;
-    left: 8vw;
-    background-color: #acacac4f;
-    backdrop-filter: blur(2px);
-    border-radius: 2rem;
-    -webkkit-box-shadow: outset 0px 0px 15px 5px #000;
-    box-shadow: outset 0px 0px 15px 5px #000;
+  width: 85%;
+  top: 52vh;
+  left: 8vw;
+  background-color: #acacac4f;
+  backdrop-filter: blur(2px);
+  border-radius: 2rem;
+  -webkkit-box-shadow: outset 0px 0px 15px 5px #000;
+  box-shadow: outset 0px 0px 15px 5px #000;
 }
 
 .social {
-    width: 4rem;
-    top: 0;
-    right: 0%;
-    background-color: rgba(255, 252, 252, 0.097);
-    backdrop-filter: blur(2px);
+  width: 4rem;
+  top: 0;
+  right: 0%;
+  background-color: rgba(255, 252, 252, 0.097);
+  backdrop-filter: blur(2px);
 }
 
 /* .light-btn {
@@ -128,61 +128,56 @@
 } */
 
 @media only screen and (max-width: 1199px) {
-    .nav-custom-link:hover {
-        width: 60%;
-    }
+  .nav-custom-link:hover {
+    width: 60%;
+  }
 }
 
 @media only screen and (max-width: 991px) {
-    .text-body-yellow {
-        font-size: 1rem !important;
-    }
+  .text-body-yellow {
+    font-size: 1rem !important;
+  }
 
-    .text-body-blue {
-        font-size: 1rem !important;
-    }
+  .text-body-blue {
+    font-size: 1rem !important;
+  }
 }
 
-
 @media only screen and (max-width: 767px) {
-    .logo {
+  .logo {
     background-position-x: 0.5rem;
-    }
+  }
 
-    .wrinkle-navbar {
-        visibility: hidden;
-        display: none;
-    }
+  .wrinkle-navbar {
+    visibility: hidden;
+    display: none;
+  }
 
-    .heading-quote {
-        height: 60% !important;
-    }
+  .heading-quote {
+    height: 60% !important;
+  }
 
-    .button-work, .button-worker {
-        width: 25% !important;
-    }
+  .button-work,
+  .button-worker {
+    width: 25% !important;
+  }
 
-    .landing-page {
-        /* background: url("../images/landing-page-sm-bg.png"); */
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-
-
+  .landing-page {
+    /* background: url("../images/landing-page-sm-bg.png"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 }
 
 @media only screen and (max-width: 575px) {
-
-    .landing-page {
-        /* background: url("../images/landing-page-sm-bg.png"); */
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-    .logo {
-        background-position-x: 0.5rem;
-    }
-
+  .landing-page {
+    /* background: url("../images/landing-page-sm-bg.png"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .logo {
+    background-position-x: 0.5rem;
+  }
 }
-

@@ -1,88 +1,149 @@
+* {
+  caret-color: #ffbc43 !important;
+}
+.text-body-blue::selection,
+.text-body-white::selection,
+.text-body-blue-small::selection,
+.text-heading-blue::selection,
+.text-heading-white::selection,
+.text-heading-blue-small::selection,
+.text-heading-white-small::selection {
+  background: #ffbc43 !important;
+}
+
+.text-body-yellow::selection,
+.text-body-small-yellow::selection,
+.text-heading-yellow::selection,
+.text-heading-yellow-small::selection {
+  color: #ffffff !important;
+  background: #ffbc43 !important;
+}
+
+/* TEXT BODY */
+
 .text-body-yellow {
-    color: #FFBC43 !important;
-    font-size: 1.3rem !important;
-    font-family: "Reem Kufi" , sans-serif;
+  color: #ffbc43 !important;
+  font-size: 1.3rem !important;
+  font-family: "Reem Kufi", sans-serif;
 }
 
 .text-body-blue {
-    color: #0C375C !important;
-    font-size: 1.3rem !important;
-    font-family: "Reem Kufi" , sans-serif;
+  color: #0c375c !important;
+  font-size: 1.3rem !important;
+  font-family: "Reem Kufi", sans-serif;
 }
 
 .text-body-white {
-    color: #ffffff !important;
-    font-size: 1.3rem !important;
-    font-family: "Reem Kufi" , sans-serif;
+  color: #ffffff !important;
+  font-size: 1.3rem !important;
+  font-family: "Reem Kufi", sans-serif;
 }
+
+/* TEXT-BODY SMALL  */
 
 .text-body-small-yellow {
-    color: #FFBC43 !important;
-    font-size: 1rem !important;
-    font-family: "Reem Kufi" , sans-serif;
+  color: #ffbc43 !important;
+  font-size: 1rem !important;
+  font-family: "Reem Kufi", sans-serif;
 }
 
+.text-body-blue-small {
+  color: #0c375c !important;
+  font-size: 1rem !important;
+  font-family: "Reem Kufi", sans-serif;
+}
 
+/* TEXT HEADING  */
 .text-heading-yellow {
-    color: #FFBC43 !important;
-    font-size: 2.5rem !important;
-    font-family: "Josefin Sans" , sans-serif;
+  color: #ffbc43 !important;
+  font-size: 2.5rem !important;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .text-heading-blue {
-    color: #0C375C !important;
-    font-size: 2.5rem !important;
-    font-family: "Josefin Sans" , sans-serif;
+  color: #0c375c !important;
+  font-size: 2.5rem !important;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .text-heading-white {
-    color: #ffffff !important;
-    font-size: 2.5rem !important;
-    font-family: "Josefin Sans" , sans-serif;
+  color: #ffffff !important;
+  font-size: 2.5rem !important;
+  font-family: "Josefin Sans", sans-serif;
 }
 
+/* TEXT HEADING SMALL*/
 .text-heading-yellow-small {
-    color: #FFBC43 !important;
-    font-size: 1.5rem !important;
-    font-family: "Josefin Sans" , sans-serif;
+  color: #ffbc43 !important;
+  font-size: 1.8rem !important;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .text-heading-blue-small {
-    color: #0C375C !important;
-    font-size: 1.5rem !important;
-    font-family: "Josefin Sans" , sans-serif;
+  color: #0c375c !important;
+  font-size: 1.8rem !important;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .text-heading-white-small {
-    color: #ffffff !important;
-    font-size: 1.5rem !important;
-    font-family: "Josefin Sans" , sans-serif;
+  color: #ffffff !important;
+  font-size: 1.8rem !important;
+  font-family: "Josefin Sans", sans-serif;
 }
 
-a.text-body-yellow:link, a.text-body-yellow:visited {
-    text-decoration: none;
-    color :#FFBC43;
+/* PSEUDO CLASSES */
+
+a.text-body-yellow:link,
+a.text-body-yellow:visited {
+  text-decoration: none;
+  color: #ffbc43;
 }
 
 a.text-body-yellow:hover {
-    color: #b3893b !important;
+  color: #b3893b !important;
 }
 
-a.text-body-blue:link, a.text-body-blue:visited {
-    text-decoration: none;
-    color :#0C375C;
+a.text-body-blue:link,
+a.text-body-blue:visited {
+  text-decoration: none;
+  color: #0c375c;
 }
 
 a.text-body-blue:hover {
-    color: #1861a1 !important;
+  color: #1861a1 !important;
 }
 
-a.text-body-white:link, a.text-body-white:visited {
-    text-decoration: none;
-    color :#ffffff;
+a.text-body-white:link,
+a.text-body-white:visited {
+  text-decoration: none;
+  color: #ffffff;
 }
 
 a.text-body-white:hover {
-    color: #838383 !important;
+  color: #838383 !important;
 }
 
+a.text-body-small-yellow:link,
+a.text-body-small-yellow:visited {
+  color: #ffbc43 !important;
+  text-decoration: none !important;
+}
+
+a.text-body-small-yellow:hover {
+  color: #b3893b !important;
+}
+
+a.text-body-blue-small:link,
+a.text-body-blue-small:visited {
+  text-decoration: none !important;
+  color: #0c375c !important;
+}
+
+a.text-body-blue-small:hover {
+  color: #1861a1 !important;
+}
+
+.form-control,
+.form-select {
+  background-color: rgba(255, 255, 255, 0) !important;
+}

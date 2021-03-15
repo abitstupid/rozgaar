@@ -1,45 +1,51 @@
-
 .logo {
-    height: 3rem;
-    background-image:url("../images/logo.svg");
+  height: 3rem;
+  /* background-image:url("../images/logo.svg");
     background-size: contain;
     background-repeat: no-repeat;
-    background-position-x: 3.5rem;
+    background-position-x: 3.5rem; */
+}
+
+.logo-img {
+  height: 3rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: 3.5rem;
 }
 
 .mobile-nav {
-    background-color: #FFBC43 !important;
+  background-color: #ffbc43 !important;
 }
 
 .heading-decoration {
-    width: 100%;
-    height: 0.2rem;
-    background-color: #FFBC43;
+  width: 100%;
+  height: 0.2rem;
+  background-color: #ffbc43;
 }
 
 .carousel-left {
-    background-image: url("/images/carousel-button.svg");
-    background-size: 30%;
-    background-position-x: 0%;
-    background-position-y: center;
-    background-repeat: no-repeat;
+  background-image: url("/images/carousel-button.svg");
+  background-size: 30%;
+  background-position-x: 0%;
+  background-position-y: center;
+  background-repeat: no-repeat;
 }
 
 .carousel-right {
-    background-image: url("/images/carousel-button.svg");
-    background-size: 30%;
-    background-position-x: 0%;
-    background-position-y: center;
-    background-repeat: no-repeat;
-    transform: rotate(180deg);
+  background-image: url("/images/carousel-button.svg");
+  background-size: 30%;
+  background-position-x: 0%;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  transform: rotate(180deg);
 }
 
 .yellow-heading {
-    background-color: #f7eedf;
+  background-color: #f7eedf;
 }
 
 .gray-heading {
-    background-color: #d7e9f8;
+  background-color: #d7e9f8;
 }
 /* media queries */
 
@@ -51,49 +57,44 @@
 }
 
 @media only screen and (max-width: 991px) {
-    .text-body-yellow {
-        font-size: 1rem !important;
-    }
+  .text-body-yellow {
+    font-size: 1rem !important;
+  }
 
-    .text-body-blue {
-        font-size: 1rem !important;
-    }
+  .text-body-blue {
+    font-size: 1rem !important;
+  }
 }
 
-
 @media only screen and (max-width: 767px) {
-    .logo {
-        display: none;
-    }
+  .logo {
+    display: none;
+  }
 
-    .text-heading-blue {
-        font-size: 2rem !important;
-    }
+  .text-heading-blue {
+    font-size: 2rem !important;
+  }
 
-    .carousel-left {
-        background-image: url("/images/carousel-button.svg");
-        background-size: 80%;
-        background-position-x: 0%;
-        background-position-y: center;
-        background-repeat: no-repeat;
-    }
-    
-    .carousel-right {
-        background-image: url("/images/carousel-button.svg");
-        background-size: 80%;
-        background-position-x: 0%;
-        background-position-y: center;
-        background-repeat: no-repeat;
-        transform: rotate(180deg);
-    }
+  .carousel-left {
+    background-image: url("/images/carousel-button.svg");
+    background-size: 80%;
+    background-position-x: 0%;
+    background-position-y: center;
+    background-repeat: no-repeat;
+  }
 
+  .carousel-right {
+    background-image: url("/images/carousel-button.svg");
+    background-size: 80%;
+    background-position-x: 0%;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    transform: rotate(180deg);
+  }
 }
 
 @media only screen and (max-width: 575px) {
-
-    .logo {
-        background-position-x: 0rem;
-    }
-
+  .logo {
+    background-position-x: 0rem;
+  }
 }
-

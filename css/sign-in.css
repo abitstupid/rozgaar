@@ -1,0 +1,80 @@
+body {
+  background: #fff url("/images/sign-in-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: -2rem;
+}
+
+.logo {
+  height: 3.5rem !important;
+  margin-top: 3rem !important;
+}
+
+.logo-image {
+  height: 3.5rem;
+}
+
+.sign-in-container {
+  height: fit-content;
+}
+
+.sign-in-content {
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, 0.932) !important;
+  -webkit-box-shadow: 11px 19px 55px -9px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 11px 19px 55px -9px rgba(0, 0, 0, 0.5);
+  box-shadow: 11px 19px 55px -9px rgba(0, 0, 0, 0.5);
+}
+
+.email-form,
+.name-form,
+.username-form,
+.country-form {
+  border-bottom: 0.2rem solid #ffbc43 !important;
+  border-left: 0px;
+  border-top: 0px;
+  border-right: 0px;
+}
+
+.email:focus {
+  outline: none !important;
+}
+
+.submit-btn-sign-in {
+  background: #ffbc43;
+}
+
+/* media queries */
+
+/* @media only screen and (max-width: 1400px) {
+    
+} */
+
+@media only screen and (max-width: 1199px) {
+}
+
+@media only screen and (max-width: 991px) {
+  .sign-in-content {
+    width: 70% !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .sign-in-content {
+    width: 80% !important;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .sign-in-content {
+    width: 95% !important;
+  }
+
+  .text-body-blue-small {
+    font-size: 0.8rem !important;
+  }
+
+  .text-body-small-yellow {
+    font-size: 0.8rem !important;
+  }
+}
