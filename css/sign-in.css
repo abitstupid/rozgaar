@@ -15,7 +15,7 @@ body {
 } 
 
 .logo-image {
-    height: 3.5rem;
+    height: 3.5rem !important;
 }
 
 .sign-in-container {
