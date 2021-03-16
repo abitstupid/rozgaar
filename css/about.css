@@ -1,0 +1,48 @@
+.logo {
+    height: 3rem;
+    /* background-image:url("../images/logo.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 3.5rem; */
+}
+
+.logo-img {
+    height: 3rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 3.5rem;
+}
+.mobile-nav {
+    background-color: #ffbc43 !important;
+}
+  /* media queries */
+
+/* @media only screen and (max-width: 1400px) {
+
+  } */
+
+@media only screen and (max-width: 1199px) {
+}
+
+@media only screen and (max-width: 991px) {
+    .text-body-yellow {
+    font-size: 1rem !important;
+    }
+    .text-body-blue {
+    font-size: 1rem !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .text-heading-blue {
+    font-size: 2rem !important;
+    }
+}
+
+
+@media only screen and (max-width: 575px) {
+    .logo {
+    background-position-x: 0rem;
+    }
+}

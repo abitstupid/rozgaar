@@ -1,22 +1,11 @@
 * {
   caret-color: #ffbc43 !important;
 }
-.text-body-blue::selection,
-.text-body-white::selection,
-.text-body-blue-small::selection,
-.text-heading-blue::selection,
-.text-heading-white::selection,
-.text-heading-blue-small::selection,
-.text-heading-white-small::selection {
-  background: #ffbc43 !important;
-}
 
-.text-body-yellow::selection,
-.text-body-small-yellow::selection,
-.text-heading-yellow::selection,
-.text-heading-yellow-small::selection {
-  color: #ffffff !important;
-  background: #ffbc43 !important;
+
+*::selection {
+  background-color: #ffbc43;
+  color: #ffffff;
 }
 
 /* TEXT BODY */
