@@ -28,7 +28,7 @@
 }
 
 .heading-quote {
-  margin-top: 5rem;
+  margin-top: 5vh;
 }
 
 .mobile-nav {
@@ -102,10 +102,12 @@
 
 .button-work {
   background-color: #ffbc43;
+  height: fit-content;
 }
 
 .button-worker {
   border-color: #ffbc43;
+  height: fit-content;
 }
 
 /* glassy rectangular box in middle */
@@ -186,6 +188,11 @@
     background-repeat: no-repeat;
     background-position: center;
   }
+  
+  .text-heading-white {
+    font-size: 2rem;
+  } 
+
 }
 
 @media only screen and (max-width: 575px) {
@@ -199,4 +206,13 @@
     background-position-x: 0rem;
     display: none;
   }
+
+  .text-heading-white {
+    font-size: 1.7rem !important;
+  } 
+
+  .heading-quote {
+    margin-top: 2vh;
+  }
+
 }
