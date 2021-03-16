@@ -4,10 +4,15 @@
 
 
 *::selection {
-  background-color: #ffbc43;
-  color: #ffffff;
+  background-color: #00ffc8;
+  color: #000000;
 }
 
+/* .text-body-blue::selection , .text-body-blue-small::selection , .text-heading-blue::selection , .text-body-blue-small::selection , .text-heading-blue-small::selection {
+  background-color: #0c375c;
+  color: #ffffff;
+
+} */
 /* TEXT BODY */
 
 .text-body-yellow {
@@ -62,6 +67,14 @@
 }
 
 /* TEXT HEADING SMALL*/
+  
+
+.text-heading-white-small {
+  color: #ffffff !important;
+  font-size: 1.8rem !important;
+  font-family: "Josefin Sans", sans-serif;
+}
+
 .text-heading-yellow-small {
   color: #ffbc43 !important;
   font-size: 1.8rem !important;
@@ -74,11 +87,8 @@
   font-family: "Josefin Sans", sans-serif;
 }
 
-.text-heading-white-small {
-  color: #ffffff !important;
-  font-size: 1.8rem !important;
-  font-family: "Josefin Sans", sans-serif;
-}
+
+
 
 /* PSEUDO CLASSES */
 
