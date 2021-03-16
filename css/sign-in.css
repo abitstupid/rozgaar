@@ -15,7 +15,7 @@ body {
 } 
 
 .logo-image {
-    height: 3.5rem;
+    height: 3.5rem !important;
 }
 
 .sign-in-container {
@@ -71,10 +71,6 @@ body {
 @media only screen and (max-width: 767px) {
     .sign-in-content {
         width: 80% !important;
-    }
-
-    .logo {
-        display: none;
     }
 }
 
