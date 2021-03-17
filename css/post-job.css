@@ -1,3 +1,13 @@
+.post-job-heading , .worker-profile-heading , .form-control {
+    color: #0C375C;
+    font-family: "Josefin Sans" , sans-serif ;
+}
+
+h4 {
+    color: #ffbc43;
+    font-family: "Reem Kufi" , sans-serif ;
+}
+
 .logo {
     height: 3rem;
     user-select: none;
@@ -14,3 +24,78 @@
 .mobile-nav {
     background-color: #ffbc43 !important;
 }
+
+.post-job-heading {
+    background-color: #ffbc43;
+    width: fit-content;
+    
+}
+
+.job-description-input {
+    resize: vertical;
+}
+
+.form-control {
+    width: 80%;
+    border: 0px;
+    border-bottom: 0.2rem solid #ffbc43 !important;
+    border-radius: 1rem;
+}
+
+.submit-btn-post-job {
+    background: #ffbc43;
+}
+
+.worker-profile-content {
+    background: #ffbc43;
+}
+
+.profile-container {
+    background: #ffbc43;
+}
+
+.image-profile {
+    width: 100%;
+}
+/* media queries */
+
+/* @media only screen and (max-width: 1400px) {
+    
+} */
+
+@media only screen and (max-width: 1199px) {
+}
+
+@media only screen and (max-width: 991px) {
+    .worker-image-1 {
+        height: 80px;
+        width: 80px;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    .logo {
+    display: none;
+    }
+    .worker-profile-content {
+        background: #ffbc43;
+        height: 200px;
+    }
+
+    .worker-image-1 {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .form-control {
+        width: 100%;
+    }
+
+}
+
+
+
