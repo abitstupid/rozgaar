@@ -7,6 +7,7 @@
     font-family: "Reem Kufi" , sans-serif;
     color: #0C375C;
 }
+
 h1 , h4 {
     color: #ffbc43;
     font-family: "Reem Kufi" , sans-serif !important ;
@@ -29,49 +30,56 @@ h1 , h4 {
     background-color: #ffbc43 !important;
 }
 
-.post-job-heading {
-    background-color: #ffbc43;
-    width: fit-content;
-    
-}
-
-.job-description-input {
-    resize: vertical;
-}
-
-.form-control {
-    width: 80%;
+.search-input {
     border: 0px;
     border-bottom: 0.2rem solid #ffbc43 !important;
-    border-radius: 1rem;
+    border-radius: 2rem !important;
 }
 
-.submit-btn-post-job {
-    background: #ffbc43;
+.search-input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    text-align: center;
+    }
+.search-input::-moz-placeholder { /* Firefox 19+ */
+    text-align: center;
+    }
+.search-input:-ms-input-placeholder { /* IE 10+ */
+    text-align: center;
+    }
+.search-input:-moz-placeholder { /* Firefox 18- */
+    text-align: center;
+    }
+
+.search-bar-row {
+    background-color: rgb(255, 255, 255);
 }
 
-/* .worker-profile-content {
-    background: #ffbc43;
-} */
-
-.profile-container {
-    background: #ffbc43;
-    height: 60%
+.rides-cards {
+    height: 250px;
 }
 
-.image-profile {
-    width: 70%;
-    border-radius: 50%;
+.card {
+    height: 250px;
+    width: 80%;
+    background:  url("/images/landing-page-sm.jpg");
+    background-position: center;
+    background-size: cover;
+    border: 0px; 
+    -webkit-box-shadow: 24px 20px 23px -12px rgba(0,0,0,0.59);
+    -moz-box-shadow: 24px 20px 23px -12px rgba(0,0,0,0.59);
+    box-shadow: 24px 20px 23px -12px rgba(0,0,0,0.59);
 }
 
+.hover-btn-submit {
+    display: none;
+}
+
+.card:hover .hover-btn-submit {
+    display: block;
+}
 
 /* media queries */
 
 @media only screen and (max-width: 1400px) {
-    .image-profile {
-        width: 100%;
-        border-radius: 50%;
-    }
 }
 
 @media only screen and (max-width: 1199px) {
@@ -88,28 +96,9 @@ h1 , h4 {
     .logo {
     display: none;
     }
-
-    .image-profile {
-        width: 50%;
-        border-radius: 50%;
-    }
-
-    .profile-container {
-        background: #ffbc43;
-        height: 90%
-    }
 }
 
 @media only screen and (max-width: 575px) {
-    .form-control {
-        width: 100%;
-    }
-
-    .image-profile {
-        width: 20%;
-        border-radius: 50%;
-    }
-    
 }
 
 
